@@ -1,0 +1,6 @@
+1. Open a socket and specify the transfer protocol (socket.SOCK_STREAM)
+2. While server has to continously listen to the specified port, client inits the connection.
+3. Set S_REUSEADDR option to true for setsockopt
+4. Connection address and port
+5. Empty string is returned
+6. 
